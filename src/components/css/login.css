@@ -1,0 +1,148 @@
+
+.login form .inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.login .login-content{
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 35px;
+}
+
+.login .login-content h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #3b5573;
+}
+
+.login form{
+    background-color: #Fff;
+    padding: 21px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+    padding-top: 47px;
+    padding-bottom: 42px;
+    width: 100%;
+}
+.login form>a{
+    margin-top: 6px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+}
+.login .login-content h3{
+    background-color: #bb00004f;
+    color: #b90000;
+    border: 1px solid #a5000045;
+    padding: 9px;
+    font-size: 16px;
+    margin-bottom: 61px;
+}
+
+
+
+.login .login-content img{
+    width: 100%;
+    height: 650px;
+    object-fit: contain;
+}
+
+.login form input{
+    width: 98%;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    padding-left: 8px;
+}
+
+
+.login form .input{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+}
+
+.login form .input input:focus{
+    border: 1px solid #499efb;
+
+}
+
+
+.login form .input label{
+    background-color: #fff;
+    position: absolute;
+    top: -13px;
+    left: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #787878;
+}
+
+
+.login form .input textarea{
+    width: 98%;
+    height: 150px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+.login form .inputs .check-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.login form h2{
+    font-size: 17px;
+}
+
+
+.login form .inputs .check-input input{
+    width: 22px;
+    height: 32px;
+    border-radius: 0px;
+}
+
+.login form button{
+    width: 100%;
+    height: 43px;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    background-color: #3b5573;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+.show-password-button{
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+}

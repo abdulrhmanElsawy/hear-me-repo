@@ -1,0 +1,32 @@
+.text-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    outline: none;
+    border: 1px solid #c7c7c7;
+}
+
+.hand-icon {
+    font-size: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+
+.hand-icon img{
+    width: 66px !important;
+}
+
+.landing h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: #355573;
+}

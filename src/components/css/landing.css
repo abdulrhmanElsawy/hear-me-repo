@@ -1,0 +1,79 @@
+.landing{
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 16px;
+    padding-top: 70px;
+}
+
+.landing .landing-content{
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 27px;
+}
+
+
+.landing .landing-content img{
+    width: 100%;
+}
+
+.landing .landing-content h2{
+    font-size: 19px;
+    color: #162f4f;
+    font-weight: 300;
+    margin: 0;
+}
+
+.landing .landing-content h1{
+    font-size: 49px;
+    font-weight: 800;
+    color: #0f2646;
+    margin: 0;
+}
+
+
+.landing .landing-content p{
+    font-size: 16px;
+    line-height: 38px;
+    width: 79%;
+    color: #1e1e1e;
+}
+
+.landing .landing-content a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    background-color: #355573;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.landing .landing-content video{
+    width: 350px;
+    height: 250px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.landing .landing-content button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 36px;
+    color: #355573;
+}

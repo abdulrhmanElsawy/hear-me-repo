@@ -1,0 +1,456 @@
+.test-page{
+    background-image: url('../images/waves.png');
+    background-size: cover;
+
+}
+
+.test-page .test-page-content{
+    background-color: #ffffffeb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-page .test-page-content h1{
+    font-size: 31px;
+    font-weight: 800;
+}
+.test-page .test-page-content h2{
+    margin-top: 30px;
+    margin-bottom: 18px;
+    font-size: 23px;
+    color: #465b74;
+}
+
+.test-page .test-page-content h3{
+    text-align: center;
+    line-height: 51px;
+    font-size: 18px;
+}
+
+
+.test-page .test-page-content p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.test-page .test-page-content a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 40px;
+    background-color: #355573;
+    color: #fff;
+    transition: 0.3s;
+    text-align: center;
+    border-radius: 49px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.test-page .test-page-content a:hover{
+    background-color: #223649;
+
+}
+
+
+.check-speaker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.play-button,
+.stop-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.stop-button {
+    color: red;
+}
+
+.stop-button::before,
+.play-button::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    animation: pulse 1s ease-out infinite;
+    z-index: 1;
+}
+
+
+
+.stop-button::after,
+.play-button::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    animation: pulse2 3s ease-out infinite;
+    -webkit-animation: pulse2 3s ease-out infinite;
+    z-index: 1;
+}
+
+.stop-button::before {
+    border: 2px solid #223649;
+}
+
+
+.stop-button::after {
+    border: 2px solid #223649;
+}
+
+
+.play-button::before {
+    border: 2px solid white;
+}
+
+@keyframes pulse {
+    from {
+    transform: scale(1);
+    opacity: 1;
+    }
+    to {
+    transform: scale(1.5);
+    opacity: 0;
+    }
+}
+
+@keyframes pulse2 {
+    from {
+    transform: scale(1);
+    opacity: 1;
+    }
+    to {
+    transform: scale(1.5);
+    opacity: 0;
+    }
+}
+
+.check-speaker {
+    background-image: url('../images/waves.png');
+    background-size: cover;
+}
+
+.check-speaker  .check-speaker-content{
+    background-color: #ffffffeb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.check-speaker  .check-speaker-content .start-button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #465b74;
+    color: #fff;
+    font-size: 65px;
+    transition: 0.3s;
+}
+
+.check-speaker  .check-speaker-content .stop-button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #465b74;
+    color: #fff;
+    font-size: 65px;
+    transition: 0.3s;
+}
+
+
+.check-speaker  .check-speaker-content h1{
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #465b74;
+}
+
+.check-speaker  .check-speaker-content p{
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.check-speaker  .check-speaker-content a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 40px;
+    background-color: #355573;
+    color: #fff;
+    transition: 0.3s;
+    text-align: center;
+    border-radius: 49px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+
+.start-test{
+    position: relative;
+    min-height: 100vh;
+}
+
+.start-test .test-content{
+    min-height: 100vh;
+    background-color: #0009;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-test .test-content .test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.start-test .test-content .test>h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.start-test .test-content .test>h2{
+    
+}
+
+.start-test .test-content .test>p{
+    font-size: 20px;
+    width: 76%;
+    text-align: center;
+}
+.start-test .test-content .test>button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    background-color: #355573;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    border-radius: 27px;
+    transition: 0.3s;
+}
+
+.start-test .test-content .test .question{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.start-test .test-content .test .question>button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+}
+
+
+.start-test .test-content .test .question>button::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    animation: pulse 1s ease-out infinite;
+    z-index: 1;
+}
+
+
+
+.start-test .test-content .test .question>button::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    animation: pulse2 3s ease-out infinite;
+    -webkit-animation: pulse2 3s ease-out infinite;
+    z-index: 1;
+}
+
+.start-test .test-content .test .question>button::before {
+    border: 2px solid #223649;
+}
+
+
+.start-test .test-content .test .question>button::after {
+    border: 2px solid #223649;
+}
+
+
+.start-test .test-content .test .question>button::before {
+    border: 2px solid white;
+}
+
+@keyframes pulse {
+    from {
+    transform: scale(1);
+    opacity: 1;
+    }
+    to {
+    transform: scale(1.5);
+    opacity: 0;
+    }
+}
+
+@keyframes pulse2 {
+    from {
+    transform: scale(1);
+    opacity: 1;
+    }
+    to {
+    transform: scale(1.5);
+    opacity: 0;
+    }
+}
+
+.start-test .test-content .test .question .question-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 46px;
+    width: 100%;
+}
+
+
+.start-test .test-content .test .question .question-info .info{
+    width: 50%;
+}
+
+
+
+.start-test .test-content .test .question .answers{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 50%;
+    justify-content: center;
+}
+
+
+
+.start-test .test-content .test .question .answers button{
+    width: 87%;
+    height: 51px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    color: #000;
+    background-color: #fff;
+}
+
+.start-test .test-content .test .question .answers button:hover{
+    color: #fff;
+    background-color: #223649;
+}
+
+
+.start-test .test-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+

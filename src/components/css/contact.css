@@ -1,0 +1,199 @@
+.contact .reviews {
+    padding: 30px;
+}
+.contact .reviews .review-header h2{
+    font-size: 18px;
+    color: #499efb;
+    font-weight: 600;
+}
+
+.contact .reviews .review-header h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #355573;
+}
+
+
+
+.contact .reviews .review .review-description{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.contact .reviews .review .review-description .top{
+    font-size: 50px;
+    color: #355573;
+}
+
+.contact .reviews .review .review-description p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+
+
+.contact .reviews .review .review-description .bottom{
+    position: relative;
+    left: 97%;
+    font-size: 50px;
+    color: #355573;
+}
+
+.contact .reviews .review .info-stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact .reviews .review .info-stars .info{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.contact .reviews .review .info-stars img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.contact .reviews .review .info-stars .info div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact .reviews .review .info-stars .info div h1{
+    font-size: 19px;
+    font-weight: 700;
+}
+.contact .reviews .review .info-stars .info div h2{
+    font-size: 16px;
+    color: #727272;
+}
+
+.contact .reviews .review .info-stars .stars{
+    color: #3b5573;
+}
+
+
+.contact .contact-content{
+    background-color: #fff;
+    padding: 18px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+}
+
+.contact .contact-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #355573;
+}
+
+.contact .contact-content p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.contact .contact-content form .inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contact .contact-content form input{
+    width: 98%;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+.contact .contact-content form .input{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.contact .contact-content form .input input:focus{
+    border: 1px solid #499efb;
+
+}
+
+.contact .contact-content form .input label{
+    background-color: #fff;
+    position: absolute;
+    top: -13px;
+    left: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #787878;
+}
+
+
+.contact .contact-content form .input textarea{
+    width: 98%;
+    height: 150px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+.contact .contact-content form .inputs .check-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.contact .contact-content form h2{
+    font-size: 17px;
+}
+
+
+.contact .contact-content form .inputs .check-input input{
+    width: 22px;
+    height: 32px;
+    border-radius: 0px;
+}
+
+.contact .contact-content form button{
+    width: 100%;
+    height: 43px;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    background-color: #3b5573;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+
+
+
+.slick-next:before {
+    content: '→';
+    color: #355573 !important;
+}

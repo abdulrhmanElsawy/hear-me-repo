@@ -1,0 +1,112 @@
+.steps{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #355573;
+    color: #fff;
+}
+
+
+.steps .header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.steps .header h2{
+    font-size: 19px;
+    font-weight: 400;
+    color: #529ffb;
+}
+
+.steps .header h1{
+    font-weight: 600;
+}
+
+
+.steps .steps-content{
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.steps .steps-content .images{
+    min-height: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps .steps-content .images img{
+    width: 73%;
+    height: 403px;
+    object-fit: cover;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+
+.steps .steps-content .step{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 14px;
+    border-top: 1px solid #ffffff38;
+}
+
+.steps .steps-content .step .head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    width: 30%;
+}
+
+.steps .steps-content .step .head span{
+    font-size: 35px;
+}
+
+.steps .steps-content .step .head h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.steps .steps-content .step .body{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.steps .steps-content .step .body p{
+        width: 60%;
+}
+
+
+.steps .steps-content .step .body span{
+    font-size: 29px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.steps .steps-content .step:hover .body span{
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    color: #529ffb;
+
+}
+
